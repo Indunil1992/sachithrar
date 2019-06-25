@@ -1,0 +1,115 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "eb6e35a1-4dcd-4ee9-aa22-559cb6988631": {
+        "id": "eb6e35a1-4dcd-4ee9-aa22-559cb6988631",
+        "parent": null,
+        "name": "sachithrar",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "fcdd7456-27d0-4c54-a089-be9aceaeff84"
+        ],
+        "isRemovable": false,
+        "filePath": "sachithrar"
+      },
+      "fcdd7456-27d0-4c54-a089-be9aceaeff84": {
+        "id": "fcdd7456-27d0-4c54-a089-be9aceaeff84",
+        "parent": "eb6e35a1-4dcd-4ee9-aa22-559cb6988631",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sachithrar/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1TestAPIqainduany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "eb6e35a1-4dcd-4ee9-aa22-559cb6988631",
+    "openFiles": [
+      "fcdd7456-27d0-4c54-a089-be9aceaeff84"
+    ],
+    "currentFileId": "fcdd7456-27d0-4c54-a089-be9aceaeff84",
+    "resources": {
+      "apigusEast1TestAPIqainduany": {
+        "name": "apigusEast1TestAPIqainduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "TestAPI",
+          "apiId": "0itznun7w3",
+          "endpointType": "EDGE",
+          "rootResourceId": "h2lelj6j7k",
+          "existingResources": {
+            "/hiru/test": "2b8zt0",
+            "/hiru": "3nc52b",
+            "/hiru/sample": "4226gg",
+            "/MyLambda": "98nqbj",
+            "/": "h2lelj6j7k",
+            "/test123": "kw67fb",
+            "/testtwospeciallambda": "q4szm3",
+            "/testtwospecialkumutest": "wey3lk"
+          },
+          "resourceMode": 0,
+          "resourceName": "qa/indu",
+          "resourcePath": "/qa/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "ctamoe",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "sachithrar",
+    "projectDescription": "rar",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1561440076783
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "sachithrar",
+      "url": "https://github.com/Indunil1992/sachithrar"
+    }
+  }
+}
